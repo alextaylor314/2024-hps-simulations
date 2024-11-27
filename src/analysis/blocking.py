@@ -2,6 +2,8 @@ import numpy as np
 import itertools
 from scipy.optimize import minimize
 
+print("test")
+
 # get all the factors of a number; used to work out block sizes
 def get_factors(x):
     factors = []
