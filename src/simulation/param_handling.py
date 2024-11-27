@@ -63,8 +63,6 @@ class InputParams:
         self.sequence_original = seq_data_original[0]
         self.seq_list_original = seq_data_original[1]
     def save_text(self, seq_file, env_file, dsb_file):
-        print(to_save)
-        print(self.dsb_indices)
         f = open(seq_file, 'w')
         f.write('>{:s}\n{:s}'.format(self.seq_name, self.sequence))
         f.close()
@@ -74,8 +72,6 @@ class InputParams:
         header = ('temperature, ionic_strength, His_charge_proportion, ' +
                   'N_term_charged, N_term_truncated, ' +
                   'C_term_charged, C_term_truncated')
-        print(to_save)
-        print(self.dsb_indices)
         np.savetxt(env_file, to_save.T, header=header)
         np.savetxt(dsb_file, np.array(self.dsb_indices))
 
