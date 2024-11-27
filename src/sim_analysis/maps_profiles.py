@@ -1,9 +1,9 @@
-import numpy as np
-import pandas as pd
-import matplotlib.pyplot as plt
 import matplotlib as mpl
+import matplotlib.pyplot as plt
 import mdtraj as md
+import numpy as np
 import os
+import pandas as pd
 
 ### CODE FOR GENERATING INTER-RESIDUE MAPS AND PROFILES ###
 
