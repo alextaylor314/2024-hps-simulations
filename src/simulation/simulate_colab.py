@@ -6,6 +6,7 @@ from openmm import app
 from simtk import unit
 from IPython.display import display, HTML
 
+
 ### SIMULATION-ASSOCIATED CODE TO HANDLE DATA OUTPUT ###
 
 # show progress bar
