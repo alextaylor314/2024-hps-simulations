@@ -73,7 +73,6 @@ class InputParams:
                   'N_term_charged, N_term_truncated, ' +
                   'C_term_charged, C_term_truncated')
         np.savetxt(env_file, to_save.T, header=header)
-        #np.savetxt(dsb_file, np.array(self.dsb_indices))
 
 # update sequence and residue parameters based on specified charge information
 # returns an updated InputParams object and DataFrame of residue parameters
