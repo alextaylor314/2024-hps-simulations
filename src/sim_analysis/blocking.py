@@ -1,5 +1,5 @@
-import numpy as np
 import itertools
+import numpy as np
 from scipy.optimize import minimize
 
 # get all the factors of a number; used to work out block sizes
