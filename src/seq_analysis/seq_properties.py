@@ -1,5 +1,5 @@
-import numpy as np
 import itertools
+import numpy as np
 import pandas as pd
 from localcider.sequenceParameters import SequenceParameters
 
