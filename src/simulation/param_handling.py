@@ -63,6 +63,8 @@ class InputParams:
         self.sequence_original = seq_data_original[0]
         self.seq_list_original = seq_data_original[1]
     def save_text(self, seq_file, env_file, dsb_file):
+        print(to_save)
+        print(self.dsb_indices)
         f = open(seq_file, 'w')
         f.write('>{:s}\n{:s}'.format(self.seq_name, self.sequence))
         f.close()
