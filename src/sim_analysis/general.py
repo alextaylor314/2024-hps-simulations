@@ -1,6 +1,6 @@
-import numpy as np
-import matplotlib.pyplot as plt
 import matplotlib as mpl
+import matplotlib.pyplot as plt
+import numpy as np
 from scipy.stats import gaussian_kde
 
 ### CLASSES AND FUNCTIONS FOR SIMULATION ANALYSIS ###
