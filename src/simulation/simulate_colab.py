@@ -1,10 +1,10 @@
-import os
-import numpy as np
 import mdtraj as md
+import numpy as np
 import openmm
+import os
+from IPython.display import display, HTML
 from openmm import app
 from simtk import unit
-from IPython.display import display, HTML
 
 
 ### SIMULATION-ASSOCIATED CODE TO HANDLE DATA OUTPUT ###
