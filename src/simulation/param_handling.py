@@ -72,7 +72,7 @@ class InputParams:
         header = ('temperature, ionic_strength, His_charge_proportion, ' +
                   'N_term_charged, N_term_truncated, ' +
                   'C_term_charged, C_term_truncated')
-        print(self.T)
+        print(to_save)
         print(self.dsb_indices)
         np.savetxt(env_file, to_save.T, header=header)
         np.savetxt(dsb_file, np.array(self.dsb_indices))
