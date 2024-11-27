@@ -1,11 +1,11 @@
-import numpy as np
-import matplotlib.pyplot as plt
 import matplotlib as mpl
+import matplotlib.pyplot as plt
+import mdtraj as md
+import numpy as np
 import os
 import pandas as pd
-import mdtraj as md
-from scipy.optimize import curve_fit
 from scipy import linalg
+from scipy.optimize import curve_fit
 
 ### CODE FOR GLOBAL CONFORMATIONAL ANALYSIS ###
 
