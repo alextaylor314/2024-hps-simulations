@@ -2,4 +2,4 @@ parameter,units,CALVADOS1,CALVADOS2,CALVADOS3,LinkerHPS
 friction_coefficient,ps-1,0.01,0.01,0.01,1
 frame_time,ps,100,100,100,1000
 equilibration_time,ns,10,10,10,100
-simulation_time,ns,100,100,100,1000
+simulation_time,ns,100,100,100,500
